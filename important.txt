@@ -1,0 +1,8 @@
+Difference between StringBuffer and StringBuilder:
+
+StringBuffer:                                                               StringBuilder:
+Contains synchronised methods.                                              Contains non-synchronised methods.
+Only one thread is allowed to execute at a time, so this                    Multiple threads can operate at a time because of non-synchronised methods.
+object is by default thread safe.                                           So it is not thread safe.
+Performance wise relatively low.                                            Performance wise relatively high.
+Introduced in JAVA v1.0                                                     Introduced in JAVA v1.5
