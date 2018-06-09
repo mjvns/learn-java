@@ -1,3 +1,4 @@
+<%--suppress ALL --%>
 <%--
   Created by IntelliJ IDEA.
   User: HP
@@ -11,7 +12,7 @@
     <title>Login Page</title>
 </head>
 <body>
-    <form action="welcome.jsp" method="get">
+    <form action="process" method="get">
         <fieldset>
             <legend>Personal Information:</legend>
                     Enter FirstName: <br><input type="text" name="firstname"><br>
